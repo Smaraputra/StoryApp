@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name" translatable="false">Story App</string>
+    <string name="no_data">No Data</string>
+    <string name="detail_story_title">Detail Story</string>
+    <string name="appwidget_text">Story Banners</string>
+    <string name="new_post_image">New Post Image</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="please_enter_your_description">Please enter your description.</string>
+    <string name="description">Description</string>
+    <string name="upload">Upload</string>
+    <string name="user_photo_detail">User Photo Detail</string>
+    <string name="welcome">Welcome</string>
+    <string name="add_new_post_fab">Add New Post FAB</string>
+    <string name="backgroundlogo">BackgroundLogo</string>
+    <string name="applogo">AppLogo</string>
+    <string name="welcome_login">Welcome!</string>
+    <string name="please_use_your_own_account_to_enter">Please use your own account to enter.</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="registerwelcomeimage">RegisterWelcomeImage</string>
+    <string name="greetings">Greetings!</string>
+    <string name="fill_this_form_to_create_your_new_account">Fill this form to create your new account.</string>
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="applogosplash" translatable="false">AppLogoSplash</string>
+    <string name="status_icon">Status Icon</string>
+    <string name="status" translatable="false">Status</string>
+    <string name="close">Close</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+    <string name="user_story_photo">User Story Photo</string>
+    <string name="widget_image">Widget Image</string>
+    <string name="image">Image : </string>
+    <string name="enter_name">Please enter your name.</string>
+    <string name="enter_pass">Please enter your password.</string>
+    <string name="enter_email">Please enter your email address.</string>
+    <string name="email_invalid">Invalid email address.</string>
+    <string name="name_invalid">Name cannot be longer than 30 character.</string>
+    <string name="password_invalid">Password cannot be shorter than 6 character.</string>
+    <string name="add_story">Add New Story</string>
+    <string name="take_picture_button">Take Picture Button</string>
+    <string name="flip_camera_button">Flip Camera Button</string>
+    <string name="permission_negative">Permission is not granted.</string>
+    <string name="failed_open_camera">Failed to open camera.</string>
+    <string name="failed_capture">Failed to capture image.</string>
+    <string name="background_add">Background Add</string>
+    <string name="express_yourself">Express Yourself</string>
+    <string name="share_your_thoughts_and_idea_to_others">Share your thoughts and idea to others.</string>
+    <string name="learn_from_others">Learn More About Others</string>
+    <string name="share_your_thoughts_and_take_care_of_each_others">Share your thoughts and take care of each others.</string>
+    <string name="get_started">Get Started</string>
+    <string name="see_what_other_people_think_and_do_everyday">See what other people think and do everyday.</string>
+    <string name="build_community">Build Community</string>
+    <string name="onboarding_item_1" translatable="false">OnBoarding Item 1</string>
+    <string name="onboarding_item_2" translatable="false">OnBoarding Item 2</string>
+    <string name="onboarding_item_3" translatable="false">OnBoarding Item 3</string>
+    <string name="onboarding_logo" translatable="false">OnBoarding Logo</string>
+    <string name="language_button_login" translatable="false">Language Button Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="are_you_sure_want_to_logout">Are you sure want to logout?</string>
+    <string name="add_your_current_location_to_the_post">Add your current location to the story?</string>
+    <string name="home">Home</string>
+    <string name="map">Map</string>
+    <string name="setting">Settings</string>
+    <string name="english">English</string>
+    <string name="user_name">User Name</string>
+    <string name="change">Change</string>
+    <string name="use_the_button_below_to_logout">Use the button below to logout.</string>
+    <string name="setting_circle" translatable="false">Setting Circle</string>
+    <string name="list_illustration" translatable="false">List Illustration</string>
+    <string name="confirm_turn_on_gps">Some features may be disabled until you turn on your location.</string>
+    <string name="not_found_location">Location is not found.</string>
+    <string name="permission_location">Location permission is not granted.</string>
+    <string name="normal" translatable="false">Normal</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="hybrid" translatable="false">Hybrid</string>
+    <string name="custom" translatable="false">Custom</string>
+    <string name="parsing_error">Parsing unsuccessful.</string>
+    <string name="style_not_found">Style not found.</string>
+    <string name="retry">Retry</string>
+    <string name="story_map">Story Map</string>
+</resources>

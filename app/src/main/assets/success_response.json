@@ -1,0 +1,96 @@
+{
+  "error": false,
+  "message": "Stories fetched successfully",
+  "listStory": [
+    {
+      "id": "story-TSM5CH0ZE58b037P",
+      "name": "Akagami",
+      "description": "y",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650635182541_NJBZMIOb.jpg",
+      "createdAt": "2022-04-22T13:46:22.542Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-C3azu5w3zGNK5iI6",
+      "name": "adde",
+      "description": "tes apakah ke no 1 gk",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650635180649_ekRJU8nM.jpg",
+      "createdAt": "2022-04-22T13:46:20.651Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-0MVtMKbVtXrQ6XYu",
+      "name": "Guest",
+      "description": "ini",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650635114404_tFznSyzP.jpg",
+      "createdAt": "2022-04-22T13:45:14.405Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-MmMI1i9E5qJYh7mq",
+      "name": "abcd",
+      "description": "dddd",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650635098160_VSzEAaJ9.jpg",
+      "createdAt": "2022-04-22T13:44:58.162Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-G7l8dsgrotMS5vWB",
+      "name": "cobajaadulu",
+      "description": "plzzz perpanjang waktu deadline intermediate or banyakin reviewer;((((((😭😭🙏🙏🙏",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650634798051_pwoiVQ1J.jpg",
+      "createdAt": "2022-04-22T13:39:58.052Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-10id_7ZzRM2vyS0L",
+      "name": "Akagami",
+      "description": "ya",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650634607123_24LAwDYK.jpg",
+      "createdAt": "2022-04-22T13:36:47.124Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-95ntraOfmvnywwCA",
+      "name": "Inaki Keiji",
+      "description": "Mantap gan:v",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650634470931_f83Ef0ST.jpg",
+      "createdAt": "2022-04-22T13:34:30.934Z",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": "story-bSYX2apA-bNe3hsr",
+      "name": "Kenrico",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec.",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650634404318_0hvu2UOf.jpg",
+      "createdAt": "2022-04-22T13:33:24.320Z",
+      "lat": -6.9219065,
+      "lon": 107.60762
+    },
+    {
+      "id": "story-NmJKhKUWftFeak69",
+      "name": "Kenrico",
+      "description": "desc",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650634367736_WqG3-8kx.jpg",
+      "createdAt": "2022-04-22T13:32:47.758Z",
+      "lat": -6.9219065,
+      "lon": 107.60762
+    },
+    {
+      "id": "story-qEHWd8xWFgOBiogq",
+      "name": "Inaki Keiji",
+      "description": "Es(pa)thetic",
+      "photoUrl": "https://story-api.dicoding.dev/images/stories/photos-1650634356516_ejRyhBL5.jpg",
+      "createdAt": "2022-04-22T13:32:36.521Z",
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.smaraputra.storyapp">
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StoryApp">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".view.HomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:exported="true" />
+        <activity
+            android:name=".view.onboarding.OnBoardingActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".view.mycamera.CameraActivity"
+            android:launchMode="singleTask"
+            android:exported="true" />
+        <activity
+            android:name=".view.detailstory.DetailStoryActivity"
+            android:exported="true"
+            android:parentActivityName=".view.HomeActivity"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".view.login.LoginActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".view.register.RegisterActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".view.addstory.AddStoryActivity"
+            android:exported="true"
+            android:parentActivityName=".view.HomeActivity"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".view.splashscreen.SplashScreenActivity"
+            android:launchMode="singleTask"
+            android:exported="true"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".view.widget.ImagesBannerWidget"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/image_banner_widget_info" />
+        </receiver>
+
+        <service
+            android:name=".view.widget.StackWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+    </application>
+
+</manifest>

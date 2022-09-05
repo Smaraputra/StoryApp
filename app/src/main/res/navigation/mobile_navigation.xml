@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="id.smaraputra.storyapp.view.liststory.ListStoryFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_list_story" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="id.smaraputra.storyapp.view.map.MapFragment"
+        android:label="@string/map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="id.smaraputra.storyapp.view.setting.SettingFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

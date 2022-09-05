@@ -1,0 +1,113 @@
+1. Unit Test ListViewModel
+a. Ketika berhasil mengambil data story map dari internet
+-  Memastikan data story tidak null
+-  Memastikan mengembalikan Result.Success
+-  Memastikan jumlah data story sesuai
+
+b. Ketika gagal mengambil data story map dari internet
+-  Memastikan mengembalikan Result.Error
+
+2. Unit Test AddStoryViewModel
+a. Ketika berhasil mengirimkan story baru melalui internet
+-  Memastikan data response tambah story tidak null
+-  Memastikan mengembalikan Result.Success
+
+b. Ketika gagal mengirimkan story baru melalui internet
+-  Memastikan mengembalikan Result.Error
+
+3. Unit Test LoginViewModel
+a. Ketika berhasil login melalui internet
+-  Memastikan data response login tidak null
+-  Memastikan mengembalikan Result.Success
+
+b. Ketika gagal login melalui internet
+-  Memastikan mengembalikan Result.Error
+
+4. Unit Test RegisterViewModel
+a. Ketika berhasil register melalui internet
+-  Memastikan data response register tidak null
+-  Memastikan mengembalikan Result.Success
+
+b. Ketika gagal register melalui internet
+-  Memastikan mengembalikan Result.Error
+
+5. Unit Test StoryRepository
+a. Ketika berhasil mengambil story dari internet maka story akan tersimpan pada room
+-  Memastikan data story dalam tabel tidak kosong
+-  Memastikan data story sampel dan data story dalam tabel berjumlah sama
+
+b. Ketika berhasil mengulang load story dari internet maka tabel akan dikosongkan dulu
+-  Memastikan data story dalam tabel tidak kosong sebelum reload
+-  Memastikan data story dalam tabel kosong setelah reload
+
+c. Ketika berhasil mengambil story berupa paging
+-  Memastikan data paging story tidak null
+
+d. Ketika berhasil mengambil story lokasi dari internet
+-  Memastikan data story lokasi tidak null
+-  Memastikan mengembalikan Result.Success
+
+e. Ketika berhasil mengambil story lokasi dari internet maka story lokasi akan tersimpan pada room
+-  Memastikan data story lokasi dalam tabel tidak kosong
+-  Memastikan data story lokasi sampel dan data story lokasi dalam tabel berjumlah sama
+
+f. Ketika berhasil mengulang load story lokasi dari internet maka tabel akan dikosongkan dulu
+-  Memastikan data story lokasi dalam tabel tidak kosong sebelum reload
+-  Memastikan data story lokasi dalam tabel kosong setelah reload
+
+g. Ketika berhasil login melalui internet
+-  Memastikan data response login tidak null
+-  Memastikan mengembalikan Result.Success
+
+h. Ketika gagal login melalui internet
+-  Memastikan mengembalikan Result.Error
+
+i. Ketika berhasil register melalui internet
+-  Memastikan data response register tidak null
+-  Memastikan mengembalikan Result.Success
+
+j. Ketika gagal register melalui internet
+-  Memastikan mengembalikan Result.Error
+
+6. Instrumental Test PreferencesViewModel
+a. Ketika pengguna berhasil login dan mendapat respon token
+-  Memastikan token autentikasi pengguna tersimpan pada datastore preference
+-  Memastikan token autentikasi yang tersimpan merupakan token yang sesuai
+
+b. Ketika pengguna berhasil login dan mendapat respon nama
+-  Memastikan nama pengguna tersimpan pada datastore preference
+-  Memastikan nama yang tersimpan merupakan nama yang sesuai
+
+c. Ketika pengguna telah melewati tahap onboarding
+-  Memastikan status onboarding pengguna tersimpan pada datastore preference
+-  Memastikan status onboarding yang tersimpan merupakan status onboarding yang sesuai
+
+7. Integration Test ListStoryFragment
+a. Ketika berhasil menampilkan story melalui internet
+-  Memastikan data story dengan nama pengguna "Akagami" tampil
+-  Melakukan scroll ke data story dengan deskripsi "tes apakah ke no 1 gk"
+
+b. Ketika gagal menampilkan story melalui internet
+-  Memastikan view "noData" tampil
+
+8. End-to-End test
+a. Ketika ingin melihat daftar story
+-  Memastikan recycler view daftar story tampil
+-  Memastikan recycler view dapat di scroll minimal hingga ke data-10
+
+b. Ketika ingin melihat detail dari sebuah story
+-  Memastikan recycler view daftar story tampil
+-  Memastikan gambar di detail story tampil
+
+c. Ketika ingin melihat daftar story dalam bentuk map
+-  Memastikan recycler view daftar story tampil
+-  Memastikan view map story tampil
+
+d. Ketika ingin mencoba fitur tambah story
+-  Memastikan floating action button tampil
+-  Memastikan kolom deskripsi dapat diisi
+-  Memastikan tombol kamera dapat digunakan
+
+e. Ketika ingin mencoba fitur logout
+-  Memastikan button logout tampil
+-  Memastikan dialog konfirmasi logout tampil
